@@ -184,6 +184,10 @@ function insertSampleData($pdo) {
         $stmt->execute($company);
     }
     
+    // Insert sample user
+    $stmt = $pdo->prepare("INSERT INTO users (first_name, last_name, email, password, user_type) VALUES (?, ?, ?, ?, ?)");
+    $stmt->execute(['Admin', 'User', 'admin@jobhunt.com', password_hash('password123', PASSWORD_DEFAULT), 'employer']);
+    
     // Insert sample jobs
     $jobs = [
         ['Senior Product Engineer', 'Lead the development of innovative product solutions, leveraging your expertise in engineering and product management to drive success.', 1, 1, 'USA', 'Full Time', 145000, 145000, 'USD', 12, '5+ years experience in product development', 'Health insurance, 401k, flexible hours', 'active', 1],

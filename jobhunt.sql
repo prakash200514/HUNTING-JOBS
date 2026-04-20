@@ -141,6 +141,10 @@ INSERT INTO companies (name, logo, location, description) VALUES
 ('Twitter', 'assets/twitter.png', 'USA', 'Social media platform'),
 ('Microsoft', 'assets/microsoft.png', 'USA', 'Technology and software company');
 
+-- Users
+INSERT INTO users (first_name, last_name, email, password, user_type) VALUES
+('Admin', 'User', 'admin@jobhunt.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'employer');
+
 -- Jobs
 INSERT INTO jobs (
     title, description, company_id, category_id, location, job_type,
