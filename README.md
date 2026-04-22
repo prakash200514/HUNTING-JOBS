@@ -7,7 +7,7 @@ JobHunt is a comprehensive web-based job portal application designed to connect 
 ![PHP](https://img.shields.io/badge/PHP-8.x-purple.svg)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-blue.svg)
 
-## ✨ Key Features
+✨ Key Features
 
 - **💼 Job Management:** Employers can post, edit, and manage job listings.
 - **🔍 Advanced Search:** Job seekers can filter jobs by category, location, and type.
@@ -16,20 +16,20 @@ JobHunt is a comprehensive web-based job portal application designed to connect 
 - **🏢 Company Profiles:** Detailed company listings with logos and descriptions.
 - **📱 Responsive Design:** Fully optimized for mobile, tablet, and desktop viewing.
 
-## 🚀 Tech Stack
+ 🚀 Tech Stack
 
 - **Frontend:** HTML5, CSS3 (Remix Icons, Google Fonts), JavaScript
 - **Backend:** PHP (PDO for secure database interactions)
 - **Database:** MySQL / MariaDB
 - **Tools:** PDF Generator (PHP), GSAP for animations
 
-## 🛠️ Installation & Setup
+ 🛠️ Installation & Setup
 
-### Prerequisites
+ Prerequisites
 - [XAMPP](https://www.apachefriends.org/) (Apache & MySQL)
 - A modern web browser
 
-### Steps
+ Steps
 1. **Clone/Download:** Place the project folder in your XAMPP directory: `C:\xampp\htdocs\Jobhunt`.
 2. **Database Setup:**
    - Open MySQL Workbench or phpMyAdmin.
@@ -44,13 +44,13 @@ JobHunt is a comprehensive web-based job portal application designed to connect 
    ```
 4. **Access Project:** Open your browser and navigate to `http://localhost/Jobhunt/index.php`.
 
-## 👤 Sample Credentials
+👤 Sample Credentials
 
 | Account Type | Email | Password |
 | :--- | :--- | :--- |
 | **Administrator** | `admin@jobhunt.com` | `password123` |
 
-## 📂 Project Structure
+ 📂 Project Structure
 
 - `/assets` - Images, logos, and external CSS/JS libraries.
 - `/api` - Backend logic for dynamic interactions.
@@ -58,8 +58,7 @@ JobHunt is a comprehensive web-based job portal application designed to connect 
 - `setup.php` - Automated database initialization tool.
 - `job-quiz.php` - Candidate assessment module.
 
-## 📝 License
+📝 License
 This project is licensed under the MIT License.
 
----
 *Developed with ❤️ for the community.*
